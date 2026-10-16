@@ -1,0 +1,23 @@
+# Gradle cache and temporary files
+.gradle
+build/*
+!build/libs
+!build/libs/*.jar
+
+# IDE and editor settings
+.idea
+*.iml
+.vscode
+.settings
+.classpath
+.project
+
+# Git metadata
+.git
+.gitignore
+
+# Documentation and compose files
+Dockerfile*
+docker-compose*
+compose*
+README*
